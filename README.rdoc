@@ -27,10 +27,10 @@
 7. Open your browser at http://localhost:3000. You should see a smaple AngularJS app.
 
 
-== In-progress
-1. Use of font icons, probably using grunts-webfont[https://github.com/sapegin/grunt-webfont]
-2. Running front-end unit tests, probably using Jasmine
- 
+== TODOs
+1. Add more demo on single-page application.
+2. Use of font icons, like grunts-webfont[https://github.com/sapegin/grunt-webfont]
+3. Running front-end unit tests, probably using Jasmine
 
 
 
