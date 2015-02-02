@@ -18,18 +18,19 @@
 
 == How to run
 1. Clone this repo. Install all dependencies.
-2. run <tt>bundle install</tt>, to fetch rails dependencies
-3. run <tt>rake bower:install</tt>, to fetch front-end dependencies
-4. run <tt>rails s</tt>
-5. Open your browser at http://localhost:3000. You should see a smaple AngularJS app.
+2. Edit <tt>Gemfile</tt> to add more gems.
+3. run <tt>bundle install</tt>, to install rails dependencies
+4. Edit <tt>Bowerfile</tt> to add more front-end dependencies. Components will be located at <tt>/vendor/assets/bower_components</tt>
+5. run <tt>rake bower:install</tt>, to intall front-end dependencies
+6. run <tt>rails s</tt>
+7. Open your browser at http://localhost:3000. You should see a smaple AngularJS app.
 
 
 == In-progress
 1. Use of $templateCache in the asset pipeline, probably using grunt-html2js[https://github.com/karlgoldstein/grunt-html2js]
-2. Use of font icons, probably using grunt-webfont[https://github.com/sapegin/grunt-webfont]
+2. Use of font icons, probably using gruntss-webfont[https://github.com/sapegin/grunt-webfont]
 3. Running front-end unit tests
  
-
 
 
 

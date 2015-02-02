@@ -116,9 +116,14 @@ database engine</p>
 <ol><li>
 <p>Clone this repo. Install all dependencies.</p>
 </li><li>
-<p>run <code>bundle install</code>, to fetch rails dependencies</p>
+<p>Edit <code>Gemfile</code> to add more gems.</p>
 </li><li>
-<p>run <code>rake bower:install</code>, to fetch front-end dependencies</p>
+<p>run <code>bundle install</code>, to install rails dependencies</p>
+</li><li>
+<p>Edit <code>Bowerfile</code> to add more front-end dependencies. Components
+will be located at <code>/vendor/assets/bower_components</code></p>
+</li><li>
+<p>run <code>rake bower:install</code>, to intall front-end dependencies</p>
 </li><li>
 <p>run <code>rails s</code></p>
 </li><li>
@@ -132,7 +137,7 @@ You should see a smaple AngularJS app.</p>
 href="https://github.com/karlgoldstein/grunt-html2js">grunt-html2js</a></p>
 </li><li>
 <p>Use of font icons, probably using <a
-href="https://github.com/sapegin/grunt-webfont">grunt-webfont</a></p>
+href="https://github.com/sapegin/grunt-webfont">gruntss-webfont</a></p>
 </li><li>
 <p>Running front-end unit tests</p>
 </li></ol>
