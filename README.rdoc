@@ -1,28 +1,36 @@
-== README
+= Ruby on Rails with AngularJS Scaffolding
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+== Features
+* Manage front-end dependencies using Bower
+* Includes Bootstrap-sass[http://getbootstrap.com/css/#sass], Angular-Bootstrap[http://getbootstrap.com/css/#sass], LoDash[https://lodash.com/]
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+== System dependencies
+* Ruby version: 2.2.0
+* Rails version: 4.2.0
+* Install NodeJS[https://github.com/joyent/node/wiki/installing-node.js-via-package-manager]
+* Install Bower
+<tt>npm install bower -g</tt>
+
+== Specifications
+* Uses sqlite3 by default for Active Record. Change this to preferred database engine
+
+
+== How to run
+1. Clone this repo. Install all dependencies.
+2. run <tt>bundle install</tt>, to fetch rails dependencies
+3. run <tt>rake bower:install</tt>, to fetch front-end dependencies
+4. run <tt>rails s</tt>
+5. Open your browser at http://localhost:3000. You should see a smaple AngularJS app.
+
+
+== In-progress
+1. Use of $templateCache in the asset pipeline, probably using grunt-html2js[https://github.com/karlgoldstein/grunt-html2js]
+2. Use of font icons, probably using grunt-webfont[https://github.com/sapegin/grunt-webfont]
+3. Running front-end unit tests
+ 
+
+
+
+
+
