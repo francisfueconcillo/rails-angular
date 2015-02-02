@@ -16,6 +16,9 @@
 //= require lodash/dist/lodash
 //= require lodash/dist/lodash
 //= require angular-bootstrap/ui-bootstrap-tpls
+//= require angular-rails-templates
 
+
+//= require_tree ../templates
 
 //= require_tree .

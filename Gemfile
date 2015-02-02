@@ -24,6 +24,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #https://github.com/42dev/bower-rails
 gem "bower-rails"
 
+#https://github.com/pitr/angular-rails-templates
+gem 'angular-rails-templates'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

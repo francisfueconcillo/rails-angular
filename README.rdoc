@@ -1,8 +1,9 @@
 = Ruby on Rails with AngularJS Scaffolding
 
 == Features
-* Manage front-end dependencies using Bower
+* Manage front-end dependencies separately using Bower. bower-rails[https://github.com/42dev/bower-rails]
 * Includes Bootstrap-sass[http://getbootstrap.com/css/#sass], Angular-Bootstrap[http://getbootstrap.com/css/#sass], LoDash[https://lodash.com/]
+* Partial HTMLs are automatically converted to $templateCache and added to assets pipeline. angular-rails-templates[https://github.com/pitr/angular-rails-templates]
 
 
 == System dependencies
@@ -27,9 +28,8 @@
 
 
 == In-progress
-1. Use of $templateCache in the asset pipeline, probably using grunt-html2js[https://github.com/karlgoldstein/grunt-html2js]
-2. Use of font icons, probably using gruntss-webfont[https://github.com/sapegin/grunt-webfont]
-3. Running front-end unit tests
+1. Use of font icons, probably using grunts-webfont[https://github.com/sapegin/grunt-webfont]
+2. Running front-end unit tests, probably using Jasmine
  
 
 

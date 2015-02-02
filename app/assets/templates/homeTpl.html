@@ -1,0 +1,5 @@
+<div class="col-md-8 col-md-offset-2">
+    <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}: {{alert.info | date:'medium'}}</alert>
+    <button class='btn btn-primary' ng-click="addAlert()">Add Alert</button>
+    <button class='btn btn-secondary' ng-click="updateAlerts()">Test LoDash</button>
+</div>
